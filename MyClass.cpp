@@ -1,4 +1,4 @@
-#include "zerohead.h"
+#include "MyClass.h"
 
 double delta(double i, double j, double k){
     double n;

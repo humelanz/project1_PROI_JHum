@@ -1,4 +1,4 @@
-#include "zerohead.h"
+#include "MyClass.h"
 
 int main(){
     double a,b,c;
