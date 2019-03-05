@@ -11,7 +11,7 @@ void zero(double a, double b, double c){
     d=delta(a,b,c);
 
     std::cout << std::fixed;
-    std::cout << std::setprecision(2);
+    std::cout << std::setprecision(TWO);
 
     if (d>ZERO){
         x1=(-b+sqrt(d))/(TWO*a);
