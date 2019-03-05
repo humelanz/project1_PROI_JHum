@@ -2,13 +2,11 @@
 
 int main(){
 
-    Function *f;
+    Function f;
 
-    f->readF();
+    f.readF();
 
-    zero(f->a,f->b,f->c);
-
-    delete f;
+    zero(f.a,f.b,f.c);
 
     return 0;
 }
